@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-image: url(https://img.freepik.com/free-vector/gorgeous-clouds-background-with-blue-sky-design_1017-25501.jpg?size=626&ext=jpg&ga=GA1.1.1546980028.1703289600&semt=ais);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 100vh;
+}
+main {
+    background-color: rgba(7, 91, 169, 0.85);
+    position: relative;
+    top: 30%;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 2em;
+    width: 45%;
+    margin: auto;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  #search {
+    border-radius: 5px 0 0 5px;
+    padding: 10px;
+    font-size: 16px;
+    width: 70%;
+    height: 50px;
+    border: none;
+  }
+  
+  #submit {
+    border-radius: 0 5px 5px 0;
+    padding: 10px;
+    font-size: 16px;
+    width: 5em;
+    cursor: pointer;
+  }
+
+  #weather-wrapper {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+  }
+  
+  #weather-search {
+    display: flex;
+    width: 50%;
+  }
+  
+  
